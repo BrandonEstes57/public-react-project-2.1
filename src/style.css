@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  padding: 20px;
+}
+
+.grayText {
+  color: #918e9b;
+}
+
+.airbnbLogo {
+  max-width: 100px;
+}
+
+.heroLogo {
+  display: flex;
+  align-self: center;
+  width: 500px;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+
+.heroHeader {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.heroSubText {
+  font-size: 16px;
+  font-weight: 300;
+  inline-size: 300px;
+  margin-top: 16px;
+}
+
+.heroHeader, .heroSubText {
+  margin-left: 36px;
+
+}
+
+.card {
+  width: 175px;
+  font-size: .75rem;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cardImage {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.cardTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: .75rem;
+  font-weight: normal;
+}
+
+.starImage{
+  width: 14px;
+}
+
+.cardStats {
+  display: flex;
+  align-items: center;
+}
+
+.cardsList {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.cardPrice {
+  margin-top: 5%;
+}
+
+.cardBadge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
